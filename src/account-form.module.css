@@ -1,0 +1,79 @@
+.footer{
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0%;
+}
+.textbox{
+    border-radius: 20px;
+    border: 1px solid ;
+    color: blue;
+    width: 250px;
+    margin-bottom: 8px;
+    
+
+}
+.company{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border: 1px solid blue;
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+
+}
+.createaccount{
+    width: 180px;
+    margin-top: 20px;
+    height: 32px;
+    margin-left: 33%;
+}
+.border{
+    transform:translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    position: absolute;
+}
+.border h5{
+
+    text-align: center;
+    margin-top: 5px;
+  
+}
+p{
+
+    color: blue;
+    padding-top: 200px;
+    padding-left:380px;
+    font-size: small;
+}
+@media screen and (max-width: 600px){
+    .btn{
+        width: 300px;
+        margin-top: 40px;
+        height: fit-content;
+    }
+
+    .textbox{
+        width: 150px;
+    }
+    .createaccount{
+        width: fit-content;
+        font-size:xx-small;
+        margin-bottom: 10px;
+    }
+    p{
+        padding-top: 220px;
+        padding-left: 180px;
+    }
+}

@@ -1,0 +1,89 @@
+.footer{
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0%;
+}
+.textbox{
+    border-radius: 20px;
+    border: 1px solid ;
+    color: blue;
+    width: 250px;
+    
+
+}
+.company{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border: 1px solid blue;
+    width: 600px;
+    height: 290px;
+    border-radius: 30px;
+    align-items: center;
+
+}
+
+.border{
+    transform:translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    position: absolute;
+}
+.border h5{
+
+    text-align: center;
+    margin-top: 5px;
+  
+}
+
+.loginbtn{
+    width: 180px;
+    margin-top: 0px;
+    height: 32px;
+    margin-left: 33%;
+}
+
+.forget p{
+
+    color:blue;
+    padding-top: 190px;
+    padding-left:320px;
+    font-size: 1rem;
+} 
+@media screen and (max-width: 600px){
+    .textbox{
+        width: auto;
+        height: auto;
+    }
+    .btn{
+        width: auto;
+        height: auto;
+    }
+    .forget p{
+        font-size: xx-small;
+        padding-left: 150px;
+        padding-right: 10px;
+    }
+    .loginbtn{
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+        font-size: xx-small;
+
+    }
+    .company{
+        width: auto;
+        height: auto;
+        padding-bottom: 40px;
+    }
+}
