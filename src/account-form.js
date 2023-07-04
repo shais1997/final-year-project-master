@@ -2,10 +2,11 @@ import React from 'react';
 import AccountCss from'./account-form.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
 
-class Account extends React.Component{
-    render(){
+const Account=()=>{
+  const navigate=useNavigate();
        return(
         <>
         <div className={AccountCss.footer}></div>
@@ -30,9 +31,11 @@ class Account extends React.Component{
             </label>
           </div> 
           <p className='forget-password'>login</p>
-        <Button variant="primary" className={AccountCss.createaccount} >
+        <div className={AccountCss.createaccount} >
+        <Button onClick={()=>navigate('/login')}>
           Create Account
         </Button>
+        </div>
       </div>
         </>
        
@@ -40,7 +43,6 @@ class Account extends React.Component{
        )
     
     }
-}
 export default Account
 
 

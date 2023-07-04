@@ -32,11 +32,17 @@
     border-radius: 30px;
 
 }
-.createaccount{
+.createaccount button{
     width: 180px;
     margin-top: 20px;
-    height: 32px;
+    height: 40px;
     margin-left: 33%;
+    background-color: blue;
+    border-radius: 20px;
+}
+.createaccount button:hover{
+    background-color:  rgb(172, 172, 247);;
+    color: black;
 }
 .border{
     transform:translate(-50%, -50%);
@@ -67,10 +73,12 @@ p{
     .textbox{
         width: 150px;
     }
-    .createaccount{
-        width: fit-content;
-        font-size:xx-small;
+    .createaccount button{
+        width: 120px;
+        font-size: 12px;
         margin-bottom: 10px;
+        height: 35px;
+    
     }
     p{
         padding-top: 220px;

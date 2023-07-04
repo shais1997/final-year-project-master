@@ -46,15 +46,19 @@
   
 }
 
-.loginbtn{
+.loginbtn button{
     width: 180px;
-    margin-top: 0px;
-    height: 32px;
+    height: 40px;
     margin-left: 33%;
+    border-radius: 20px;
+    background-color: blue;
+    margin-top: 25px;
 }
-
-.forget p{
-
+.loginbtn button:hover{
+    background-color:  rgb(172, 172, 247);;
+    color: black;
+}
+.forget{
     color:blue;
     padding-top: 190px;
     padding-left:320px;
@@ -67,20 +71,23 @@
     }
     .btn{
         width: auto;
-        height: auto;
+    
     }
-    .forget p{
+    .forget {
         font-size: xx-small;
         padding-left: 150px;
         padding-right: 10px;
     }
-    .loginbtn{
-        width: auto;
-        height: auto;
-        margin-bottom: 10px;
-        font-size: xx-small;
+    .loginbtn button{
+        width: 120px;
+        height: 35px;
+        margin-bottom: 8px;
+        margin-left: 50px;
+        font-size: 12px;
+        margin-top: 20px;
 
     }
+    
     .company{
         width: auto;
         height: auto;

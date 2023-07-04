@@ -3,23 +3,26 @@
     top: 40%;
     left: 55%;
     transform:translate(-50%, -50%);
-    border: 1px solid blue;
     width: auto;
     height: auto;
     border-radius: 30px;
     padding: 20px
 }
-.btn{
+.btnn{
     position: absolute;
     top: 60%;
     left: 55%;
     transform:translate(-50%, -50%);
 }
-button{
+.btnn button{
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
+    height: 40px;
+    width: 150px;
+    border: 0px;
 }
+
 .footer{
     background-color: blue;
     width: 300px;
@@ -58,7 +61,7 @@ ul li:hover a {
     .container{
         left: 70%;
     }
-    .btn{
+    .btnn{
         left: 70%;
     }
 }

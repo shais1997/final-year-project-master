@@ -1,0 +1,186 @@
+.container{
+    position: absolute;
+    top: 10px;
+    left: 310px;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    
+}
+.btnf{
+    position: absolute;
+    top: 75%;
+    left: 58%;
+    transform:translate(-50%, -50%);
+
+}
+.btnf button{
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    width: 130px;
+    border: none;
+    height: 40px;
+}
+button:hover{
+    background-color:  rgb(172, 172, 247);;
+    color: black;
+}
+.footer{
+    background-color: blue;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+.footer header{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    line-height: 70px;
+}
+.footer ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 18pxpx;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+img{
+    height: 70px;
+}
+.header h4{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    color: blue
+    
+}
+.line{
+    background-color: blue;
+    height: 1px;
+    width: 500px;
+    margin-left: 550px;
+    margin-top: 1px;    
+    
+}
+li{
+    list-style: none;
+}
+ul li:hover a {
+    padding-left: 20px;
+}
+.radio{
+    margin-left: 45%;
+    width: 350px;
+    margin-top: 10px;
+    border: 0px solid;
+    display: flex
+}
+.radio input{
+    display: none;
+
+}
+.radio label{
+    background-color: blue;
+    padding-top: 6px;
+    border: 0px solid;
+    border-radius: 9px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    height: 35px;
+    margin: 3px;
+
+}
+.radio label:hover{
+    background-color:  rgb(172, 172, 247);;
+    color: black;
+}
+
+input[type='radio']:checked + label{
+    background-color:  rgb(172, 172, 247);
+}
+.upload{
+    margin-left: 46%;
+    margin-top: 30px;
+}
+.inp{
+    width: 300px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px blue;
+    outline: none;
+}
+::-webkit-file-upload-button{
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px rgb(155, 155, 248);
+    outline: none;
+}
+::-webkit-file-upload-button:hover{
+    background-color: rgb(172, 172, 247);
+    color: black;
+}
+.popup{
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 50%;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 600px){
+    .footer{
+        width: 200px;
+    }
+    .container{
+        left: 40%;
+    }
+    .btnf{
+        left: 70%;
+        
+    }
+    .btnf button{
+        height: 35px;
+    }
+    .header h4{
+        font-size: 18px;
+    }
+    .line{
+        width: 200px;
+        margin-left: 250px;
+    }
+    .radio label{
+        width: 70px;
+        height: 28px;
+        padding-top: 5px;
+        font-size: 12px;
+    }
+    .radio{
+        margin-left: 47%;
+    }
+    .inp{
+        width: 200px;
+        margin-left: 8%;
+        height: 26px;
+    }
+    ::-webkit-file-upload-button{
+        color: white;
+        background-color: blue;
+        padding: 4px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 1px 0 1px 1px rgb(155, 155, 248);
+        outline: none;
+        font-size: 13px;
+    }
+    
+}

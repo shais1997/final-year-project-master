@@ -5,43 +5,52 @@
     position: absolute;
     bottom: 0%;
 }
-.btnhomepri{
-    width: 49%;
+
+.btn button{
+    width: 48%;
     margin-top: 50px;
-    font-size: xx-small;
+    background-color: blue;
+    border-radius: 20px;
+    height: 40px;
+}
+.btn button:hover{
+    background-color:  rgb(172, 172, 247);;
+    color: black;
 }
 .container{
         position: absolute;
         top: 40%;
         left: 50%;
         transform:translate(-50%, -50%);
-        border: 1px solid blue;
         width: 400px;
         height: auto;
         border-radius: 30px;
 }
 .welcom h2{
     text-align: center;
+    color: blue;
     
 }
 .company{
     margin-top: 50px;
-    
-    
+    margin-left: 150px;
     
 }
 @media screen and (max-width: 600px){
-    .btnhomepri{
-        width: 53%;
-        font-size:xx-small;
-        
+    .btn{
+        margin-left: 10px;
+    }
+    .btn button{
+        font-size: 12px;
+        height: 35px;
     }
     .company{
         width: auto;
+        margin-left: 120px;
         
     }
     .container{
-        width: auto;
+        width: 350px
         
     }
 

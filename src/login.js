@@ -2,11 +2,13 @@ import React from 'react';
 import LoginCSS from'./login.module.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 
-class Login extends React.Component{
-    render(){
+const Login=()=>{
+  const navigate=useNavigate();
        return(
         <>
         <div className={LoginCSS.footer}></div>
@@ -25,10 +27,12 @@ class Login extends React.Component{
               
             </label>
           </div> 
-          <div className={LoginCSS.forget}><p>Forget Password</p></div>
-        <Button variant="primary" className={LoginCSS.loginbtn} >
+          <div className={LoginCSS.forget}><Link to='/'>Forget Password</Link></div>
+        <div className={LoginCSS.loginbtn}>
+        <Button onClick={()=>navigate('/placeorder')}>
           Login
         </Button>
+        </div>
       </div>
         </>
        
@@ -36,7 +40,6 @@ class Login extends React.Component{
        )
     
     }
-}
 export default Login
 
 
