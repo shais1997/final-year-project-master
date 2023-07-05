@@ -1,8 +1,8 @@
 {
   "name": "abc",
-  "homepage": "https://github.com/shais1997/final-year-project-master/blob/main/src/App.js",
+  "homepage": "https://github.com/shais1997.github.io/final-year-project-master",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
