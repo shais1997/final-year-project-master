@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/final-year-project-master/static/css/main.d1e2dd9b.css",
+    "main.js": "/final-year-project-master/static/js/main.29f86290.js",
+    "index.html": "/final-year-project-master/index.html",
+    "main.d1e2dd9b.css.map": "/final-year-project-master/static/css/main.d1e2dd9b.css.map",
+    "main.29f86290.js.map": "/final-year-project-master/static/js/main.29f86290.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1e2dd9b.css",
+    "static/js/main.29f86290.js"
+  ]
+}
