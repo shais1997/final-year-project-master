@@ -10,7 +10,7 @@ function App() {
   <div>
 <BrowserRouter basename='/final-year-project-master'>
 <Routes>
-<Route path='/' element={<Home/>} /> 
+<Route path='/final-year-project-master' element={<Home/>} /> 
 <Route path='/login' element={<Login/>}/>
 <Route path='/signup' element={<Account/>}/>
 <Route path='/placeorder' element={<Orderplace1/>}/>
