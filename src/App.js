@@ -8,7 +8,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
   <div>
-
+<BrowserRouter basename='/final-year-project-master'>
 <Routes>
 <Route path='/' element={<Home/>} /> 
 <Route path='/login' element={<Login/>}/>
@@ -17,7 +17,7 @@ function App() {
 <Route path='/uploadfile' element={<Fileupload />}/>
 
 </Routes>
-
+</BrowserRouter>
 
   </div>
   );
