@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/shais1997/final-year-project-master/blob/main/src/App.js/static/css/main.d1e2dd9b.css",
-    "main.js": "/shais1997/final-year-project-master/blob/main/src/App.js/static/js/main.29f86290.js",
-    "index.html": "/shais1997/final-year-project-master/blob/main/src/App.js/index.html",
-    "main.d1e2dd9b.css.map": "/shais1997/final-year-project-master/blob/main/src/App.js/static/css/main.d1e2dd9b.css.map",
-    "main.29f86290.js.map": "/shais1997/final-year-project-master/blob/main/src/App.js/static/js/main.29f86290.js.map"
+    "main.css": "/shais1997.github.io/final-year-project-master/static/css/main.d1e2dd9b.css",
+    "main.js": "/shais1997.github.io/final-year-project-master/static/js/main.29f86290.js",
+    "index.html": "/shais1997.github.io/final-year-project-master/index.html",
+    "main.d1e2dd9b.css.map": "/shais1997.github.io/final-year-project-master/static/css/main.d1e2dd9b.css.map",
+    "main.29f86290.js.map": "/shais1997.github.io/final-year-project-master/static/js/main.29f86290.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e2dd9b.css",
